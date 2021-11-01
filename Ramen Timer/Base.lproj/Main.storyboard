@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Ramen_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="xg6-w9-LZP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Enr-jX-x2H" userLabel="Top">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="272"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready to Cook!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Yp-eX-n6b">
+                                                <rect key="frame" x="43.5" y="103.5" width="327.5" height="65"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="6Yp-eX-n6b" firstAttribute="centerY" secondItem="Enr-jX-x2H" secondAttribute="centerY" id="jmD-EJ-E9C"/>
+                                            <constraint firstItem="6Yp-eX-n6b" firstAttribute="centerX" secondItem="Enr-jX-x2H" secondAttribute="centerX" id="pBg-gd-IVR"/>
+                                        </constraints>
+                                    </view>
+                                    <view tag="2" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bt-se-J4v" userLabel="Middle">
+                                        <rect key="frame" x="0.0" y="273" width="414" height="272"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ramen" translatesAutoresizingMaskIntoConstraints="NO" id="FGx-f9-kAW">
+                                                <rect key="frame" x="107" y="36" width="200" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="9xF-w5-wpX"/>
+                                                    <constraint firstAttribute="height" constant="200" id="Qll-Hv-EGH"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="FGx-f9-kAW" firstAttribute="centerX" secondItem="3bt-se-J4v" secondAttribute="centerX" id="adk-7A-Phh"/>
+                                            <constraint firstItem="FGx-f9-kAW" firstAttribute="centerY" secondItem="3bt-se-J4v" secondAttribute="centerY" id="l29-Wi-llt"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezu-qT-wyT" userLabel="Bottom">
+                                        <rect key="frame" x="0.0" y="546" width="414" height="272"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KR3-YZ-xgt">
+                                                <rect key="frame" x="160" y="109.5" width="94.5" height="53"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Start">
+                                                    <fontDescription key="titleFontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="30"/>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2To-1O-tDu"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="KR3-YZ-xgt" firstAttribute="centerX" secondItem="Ezu-qT-wyT" secondAttribute="centerX" id="0f0-F5-Xue"/>
+                                            <constraint firstItem="KR3-YZ-xgt" firstAttribute="centerY" secondItem="Ezu-qT-wyT" secondAttribute="centerY" id="w7B-wX-02k"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Enr-jX-x2H" secondAttribute="trailing" id="1NG-UR-MLn"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ezu-qT-wyT" secondAttribute="trailing" id="PXS-50-G0v"/>
+                                    <constraint firstItem="Enr-jX-x2H" firstAttribute="leading" secondItem="xg6-w9-LZP" secondAttribute="leading" id="ePA-Cm-K1D"/>
+                                    <constraint firstItem="3bt-se-J4v" firstAttribute="leading" secondItem="xg6-w9-LZP" secondAttribute="leading" id="eXd-EA-KN4"/>
+                                    <constraint firstItem="Ezu-qT-wyT" firstAttribute="leading" secondItem="xg6-w9-LZP" secondAttribute="leading" id="tBd-p3-3WJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="3bt-se-J4v" secondAttribute="trailing" id="uTO-2e-unq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="1" green="0.72941176470588232" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xg6-w9-LZP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Gcp-LM-NkM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xg6-w9-LZP" secondAttribute="trailing" id="dDO-oe-arR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xg6-w9-LZP" secondAttribute="bottom" id="w4c-gN-O8b"/>
+                            <constraint firstItem="xg6-w9-LZP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wcJ-pg-IaX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="FGx-f9-kAW" id="HsR-xn-f4v"/>
+                        <outlet property="label" destination="6Yp-eX-n6b" id="0Xk-dz-uIw"/>
+                        <outlet property="startStopButton" destination="KR3-YZ-xgt" id="vS6-VH-UDv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="97.767857142857139"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="1" green="0.72941176470000002" blue="0.031372549020000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="ramen" width="341" height="341"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6262115272F92E20080AAB3 /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = B6262114272F92E20080AAB3 /* SwiftySound */; };
+		B6262117272F94480080AAB3 /* cooking.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6262116272F94480080AAB3 /* cooking.wav */; };
+		B6262119272F96B90080AAB3 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = B6262118272F96B90080AAB3 /* alarm.wav */; };
+		B6262121272FA1190080AAB3 /* splashScreenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B6262120272FA1190080AAB3 /* splashScreenLogo.png */; };
+		B6262123272FA5260080AAB3 /* ramen.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6262122272FA5260080AAB3 /* ramen.gif */; };
+		B636084B272E0B32006EE470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636084A272E0B32006EE470 /* AppDelegate.swift */; };
+		B636084D272E0B32006EE470 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636084C272E0B32006EE470 /* SceneDelegate.swift */; };
+		B636084F272E0B32006EE470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B636084E272E0B32006EE470 /* ViewController.swift */; };
+		B6360852272E0B32006EE470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6360850272E0B32006EE470 /* Main.storyboard */; };
+		B6360854272E0B34006EE470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6360853272E0B34006EE470 /* Assets.xcassets */; };
+		B6360857272E0B34006EE470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6360855272E0B34006EE470 /* LaunchScreen.storyboard */; };
+		B636086C272E2415006EE470 /* Gifu in Frameworks */ = {isa = PBXBuildFile; productRef = B636086B272E2415006EE470 /* Gifu */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6262116272F94480080AAB3 /* cooking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cooking.wav; sourceTree = "<group>"; };
+		B6262118272F96B90080AAB3 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarm.wav; sourceTree = "<group>"; };
+		B6262120272FA1190080AAB3 /* splashScreenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splashScreenLogo.png; sourceTree = "<group>"; };
+		B6262122272FA5260080AAB3 /* ramen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ramen.gif; sourceTree = "<group>"; };
+		B6360847272E0B32006EE470 /* Ramen Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ramen Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B636084A272E0B32006EE470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B636084C272E0B32006EE470 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B636084E272E0B32006EE470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6360851272E0B32006EE470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6360853272E0B34006EE470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6360856272E0B34006EE470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6360858272E0B34006EE470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6360844272E0B32006EE470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6262115272F92E20080AAB3 /* SwiftySound in Frameworks */,
+				B636086C272E2415006EE470 /* Gifu in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B636083E272E0B32006EE470 = {
+			isa = PBXGroup;
+			children = (
+				B6360849272E0B32006EE470 /* Ramen Timer */,
+				B6360848272E0B32006EE470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6360848272E0B32006EE470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6360847272E0B32006EE470 /* Ramen Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6360849272E0B32006EE470 /* Ramen Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B636084A272E0B32006EE470 /* AppDelegate.swift */,
+				B636084C272E0B32006EE470 /* SceneDelegate.swift */,
+				B636084E272E0B32006EE470 /* ViewController.swift */,
+				B6360850272E0B32006EE470 /* Main.storyboard */,
+				B6360853272E0B34006EE470 /* Assets.xcassets */,
+				B6360855272E0B34006EE470 /* LaunchScreen.storyboard */,
+				B6360858272E0B34006EE470 /* Info.plist */,
+				B6262122272FA5260080AAB3 /* ramen.gif */,
+				B6262120272FA1190080AAB3 /* splashScreenLogo.png */,
+				B6262116272F94480080AAB3 /* cooking.wav */,
+				B6262118272F96B90080AAB3 /* alarm.wav */,
+			);
+			path = "Ramen Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6360846272E0B32006EE470 /* Ramen Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B636085B272E0B34006EE470 /* Build configuration list for PBXNativeTarget "Ramen Timer" */;
+			buildPhases = (
+				B6360843272E0B32006EE470 /* Sources */,
+				B6360844272E0B32006EE470 /* Frameworks */,
+				B6360845272E0B32006EE470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ramen Timer";
+			packageProductDependencies = (
+				B636086B272E2415006EE470 /* Gifu */,
+				B6262114272F92E20080AAB3 /* SwiftySound */,
+			);
+			productName = "Ramen Timer";
+			productReference = B6360847272E0B32006EE470 /* Ramen Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B636083F272E0B32006EE470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					B6360846272E0B32006EE470 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = B6360842272E0B32006EE470 /* Build configuration list for PBXProject "Ramen Timer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B636083E272E0B32006EE470;
+			packageReferences = (
+				B636086A272E2415006EE470 /* XCRemoteSwiftPackageReference "Gifu" */,
+				B6262113272F92E20080AAB3 /* XCRemoteSwiftPackageReference "SwiftySound" */,
+			);
+			productRefGroup = B6360848272E0B32006EE470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6360846272E0B32006EE470 /* Ramen Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6360845272E0B32006EE470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6262121272FA1190080AAB3 /* splashScreenLogo.png in Resources */,
+				B6360857272E0B34006EE470 /* LaunchScreen.storyboard in Resources */,
+				B6262123272FA5260080AAB3 /* ramen.gif in Resources */,
+				B6262119272F96B90080AAB3 /* alarm.wav in Resources */,
+				B6262117272F94480080AAB3 /* cooking.wav in Resources */,
+				B6360854272E0B34006EE470 /* Assets.xcassets in Resources */,
+				B6360852272E0B32006EE470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6360843272E0B32006EE470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B636084F272E0B32006EE470 /* ViewController.swift in Sources */,
+				B636084B272E0B32006EE470 /* AppDelegate.swift in Sources */,
+				B636084D272E0B32006EE470 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6360850272E0B32006EE470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6360851272E0B32006EE470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6360855272E0B34006EE470 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6360856272E0B34006EE470 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6360859272E0B34006EE470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B636085A272E0B34006EE470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B636085C272E0B34006EE470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M3ND2JP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ramen Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angelsantiago.Ramen-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B636085D272E0B34006EE470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6M3ND2JP2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ramen Timer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.angelsantiago.Ramen-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6360842272E0B32006EE470 /* Build configuration list for PBXProject "Ramen Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6360859272E0B34006EE470 /* Debug */,
+				B636085A272E0B34006EE470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B636085B272E0B34006EE470 /* Build configuration list for PBXNativeTarget "Ramen Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B636085C272E0B34006EE470 /* Debug */,
+				B636085D272E0B34006EE470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6262113272F92E20080AAB3 /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B636086A272E2415006EE470 /* XCRemoteSwiftPackageReference "Gifu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kaishin/Gifu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B6262114272F92E20080AAB3 /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B6262113272F92E20080AAB3 /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+		B636086B272E2415006EE470 /* Gifu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B636086A272E2415006EE470 /* XCRemoteSwiftPackageReference "Gifu" */;
+			productName = Gifu;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B636083F272E0B32006EE470 /* Project object */;
+}

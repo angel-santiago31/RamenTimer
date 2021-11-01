@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Gifu",
+        "repositoryURL": "https://github.com/kaishin/Gifu.git",
+        "state": {
+          "branch": null,
+          "revision": "51f2eab32903e336f590c013267cfa4d7f8b06c4",
+          "version": "3.3.1"
+        }
+      },
+      {
+        "package": "SwiftySound",
+        "repositoryURL": "https://github.com/adamcichy/SwiftySound",
+        "state": {
+          "branch": null,
+          "revision": "ae69bc63b12a431e75963381ef8f926c4c8b7993",
+          "version": "1.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
